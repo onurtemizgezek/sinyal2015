@@ -1,1 +1,5 @@
 # sinyal2015
+Onur TEMIZGEZEK		
+030115218
+SINYAL ISLEME
+Proje : MATLAB ile sentezleme
