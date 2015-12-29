@@ -25,4 +25,4 @@ Notalar.png : Bulunan müziğin notalarının resmi var.
 Tipi : Png resim dosyası
 
 Notalar.txt : Notaların ismi , ölçüleri , oktav , diyez ve bemolleri yazıldı. 
-Tipi : Notepad 
+Tipi : Notepad  
