@@ -1,17 +1,35 @@
-function ff=frek(nota,oktav)
-notalar=['A' 'a' 'B' 'b'];
-referans=16.35;
-p=length(notalar);
+function [frekans]=frek(nota,oktav,oktavdegeri)%frekans döndürmektedir.
 
-for okt=0:8
-    if okt==oktav
-        
-for j=1:p
-    if nota==char(notalar(j)) 
-        ff=2^okt*(2^((j-1)/12)*referans);
-    end
-end
+notalar={'Do','Dod','Re','Mib','Mi','Fa','Fad','Sol','Sold','La','Sib','Si','Sus'}; %notolardan oluşan bir dizi yazdık.
+n=strcmp(notalar,nota); %Dizenin içine aktarı,indekside 1 artırır.
+m=find(n,1);%n dizisinde 1 değerinin indeksini döndürür.
+    if (nargin==0)
+disp ('veri girişi yapınız');
+        elseif (nargin==1)
+ 
+            if (m==13)
+               frekans=0;
+            else
+                
+              
+        frekans=16.35*(2^(4+oktavdegeri))*(2^((m-1)/12));%frekans fonksiyonu oluşturuldu.
+       end
+    
+    elseif (nargin==2)
+       
+          if (m==13)
+               frekans=0;
+        else
+            frekans=16.35*(2^(oktav))*(2^((m-1)/12)); %frekans fonksiyonu oluşturuldu.
+          end
+    else
+        if (m==13)
+               frekans=0;
+        else
+            frekans=16.35*(2^(oktav+oktavdegeri))*(2^((m-1)/12)); %frekans fonksiyonu oluşturuldu.
+          end
+
 
     end
-end
-end
+
+end 
