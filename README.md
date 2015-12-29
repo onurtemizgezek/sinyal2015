@@ -1,14 +1,28 @@
-Adi Soyadi:ONUR TEMİZGEZEK
+Adi Soyadi:ONUR TEMÄ°ZGEZEK
 
 Ogrenci No:030115218
 
-Dersin Adi:Sinyal İsleme
+Dersin Adi:Sinyal Ä°sleme
 
 Proje:MATLAB ile Sentezleme
 
-notalar.png de seçtiğim parçanın notalarının görüntüsü vardır.
-notalar.txt de parçanın herbir ölçüsündeki notaların isimleri ve o notaların süreleri belirtiliyor.
-note.m de sinüs sinyalinin aralığı belirlendi.
-notecagirma.m de sinüs sinyali çizdirildi.
-frek.m de notaların frekanslarını bulan fonksiyon tanımlandı.
-frekcagirma.m de istenilen notanın frekansı bulunuyor.
+Frek.m : NotalarÄ±n frekansÄ±nÄ± hesaplayan fonksiyonlar yazÄ±ldÄ±.                           
+Tipi : Matlab dosyasÄ±
+
+Frekcagirma.m : Frekcagirma.m dosyasÄ± oluÅŸturduk , notayÄ± ve oktavÄ± Ã§aÄŸÄ±ran fonksiyonu yazÄ±ldÄ±. 
+Tipi : Matlab dosyasÄ±
+
+Note.m : NotalarÄ±n sinÃ¼s sinyalini gÃ¶steren fonksiyonu yazÄ±ldÄ±.                            
+Tipi : Matlab dosyasÄ±
+
+Notecagirma.m : NotayÄ± Ã§aÄŸÄ±ran fonksiyon yazÄ±ldÄ±. 
+Tipi : Matlab dosyasÄ±
+
+Sentez.m : NotalarÄ± notalar.txt dosyasÄ±ndan alan ve onlarÄ± Ã§aÄŸÄ±ran fonksiyonlar yazÄ±ldÄ±.   
+Tipi : Matlab dosyasÄ±
+
+Notalar.png : Bulunan mÃ¼ziÄŸin notalarÄ±nÄ±n resmi var. 
+Tipi : Png resim dosyasÄ±
+
+Notalar.txt : NotalarÄ±n ismi , Ã¶lÃ§Ã¼leri , oktav , diyez ve bemolleri yazÄ±ldÄ±. 
+Tipi : Notepad
